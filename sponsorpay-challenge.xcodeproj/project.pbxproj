@@ -1,0 +1,737 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2024FEC417B1060400836CC4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2024FEC317B1060400836CC4 /* UIKit.framework */; };
+		2024FEC617B1060400836CC4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2024FEC517B1060400836CC4 /* Foundation.framework */; };
+		2024FEC817B1060400836CC4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2024FEC717B1060400836CC4 /* CoreGraphics.framework */; };
+		2024FECE17B1060400836CC4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2024FECC17B1060400836CC4 /* InfoPlist.strings */; };
+		2024FED017B1060400836CC4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2024FECF17B1060400836CC4 /* main.m */; };
+		2024FED417B1060400836CC4 /* SPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2024FED317B1060400836CC4 /* SPAppDelegate.m */; };
+		2024FED617B1060400836CC4 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 2024FED517B1060400836CC4 /* Default.png */; };
+		2024FED817B1060400836CC4 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2024FED717B1060400836CC4 /* Default@2x.png */; };
+		2024FEDA17B1060400836CC4 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2024FED917B1060400836CC4 /* Default-568h@2x.png */; };
+		2024FEE217B1060500836CC4 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2024FEE117B1060500836CC4 /* SenTestingKit.framework */; };
+		2024FEE317B1060500836CC4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2024FEC317B1060400836CC4 /* UIKit.framework */; };
+		2024FEE417B1060500836CC4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2024FEC517B1060400836CC4 /* Foundation.framework */; };
+		2024FEEC17B1060500836CC4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2024FEEA17B1060500836CC4 /* InfoPlist.strings */; };
+		2024FEFA17B1074900836CC4 /* SPSponsorPayClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 2024FEF917B1074900836CC4 /* SPSponsorPayClient.m */; };
+		2024FF0117B107C500836CC4 /* SPEnvironment.m in Sources */ = {isa = PBXBuildFile; fileRef = 2024FF0017B107C500836CC4 /* SPEnvironment.m */; };
+		2024FF0417B1083E00836CC4 /* environment.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2024FF0317B1083E00836CC4 /* environment.plist */; };
+		2024FF0817B10D5200836CC4 /* SPOffersFormViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2024FF0617B10D5200836CC4 /* SPOffersFormViewController.m */; };
+		2024FF0917B10D5200836CC4 /* SPOffersFormViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2024FF0717B10D5200836CC4 /* SPOffersFormViewController.xib */; };
+		2024FF0F17B110C600836CC4 /* SPOffersController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2024FF0E17B110C600836CC4 /* SPOffersController.m */; };
+		2024FF1317B1123C00836CC4 /* SPOffer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2024FF1217B1123C00836CC4 /* SPOffer.m */; };
+		2024FF1617B1128200836CC4 /* SPOfferType.m in Sources */ = {isa = PBXBuildFile; fileRef = 2024FF1517B1128200836CC4 /* SPOfferType.m */; };
+		2024FF1917B112B700836CC4 /* SPThumbnail.m in Sources */ = {isa = PBXBuildFile; fileRef = 2024FF1817B112B700836CC4 /* SPThumbnail.m */; };
+		2024FF1C17B1173900836CC4 /* SPOffersParserTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 2024FF1B17B1173900836CC4 /* SPOffersParserTest.m */; };
+		2024FF1E17B1174E00836CC4 /* offers.json in Resources */ = {isa = PBXBuildFile; fileRef = 2024FF1D17B1174E00836CC4 /* offers.json */; };
+		2024FF2117B11BC300836CC4 /* SPOffersParams.m in Sources */ = {isa = PBXBuildFile; fileRef = 2024FF2017B11BC300836CC4 /* SPOffersParams.m */; };
+		2024FF2317B1231400836CC4 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2024FF2217B1231400836CC4 /* AdSupport.framework */; };
+		2024FF2917B1278C00836CC4 /* PortMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 2024FF2817B1278C00836CC4 /* PortMapper.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		2024FF2D17B128C500836CC4 /* NSString+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2024FF2C17B128C500836CC4 /* NSString+Additions.m */; };
+		2024FF3017B12B7D00836CC4 /* SPHashCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 2024FF2F17B12B7D00836CC4 /* SPHashCalculator.m */; };
+		2024FF3317B12D5600836CC4 /* SPHashCalculatorTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 2024FF3217B12D5600836CC4 /* SPHashCalculatorTest.m */; };
+		2024FF3917B1392B00836CC4 /* SPOffersListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2024FF3817B1392B00836CC4 /* SPOffersListViewController.m */; };
+		2024FF3D17B13AD600836CC4 /* SPOfferCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2024FF3C17B13AD600836CC4 /* SPOfferCell.m */; };
+		2024FF4A17B13DAF00836CC4 /* SPOffersListViewControllerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 2024FF4917B13DAF00836CC4 /* SPOffersListViewControllerTest.m */; };
+		2024FF4D17B13FE600836CC4 /* SPError.m in Sources */ = {isa = PBXBuildFile; fileRef = 2024FF4C17B13FE600836CC4 /* SPError.m */; };
+		2024FF5017B145B600836CC4 /* SPOffersControllerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 2024FF4F17B145B600836CC4 /* SPOffersControllerTest.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		2024FF5217B14B6400836CC4 /* no_offers.json in Resources */ = {isa = PBXBuildFile; fileRef = 2024FF5117B14B6400836CC4 /* no_offers.json */; };
+		2024FF5517B1539A00836CC4 /* UITableViewCell+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2024FF5417B1539A00836CC4 /* UITableViewCell+Additions.m */; };
+		2024FF5817B172FE00836CC4 /* SPOffersParamsTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 2024FF5717B172FE00836CC4 /* SPOffersParamsTest.m */; };
+		2024FF5B17B17B5700836CC4 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2024FF2217B1231400836CC4 /* AdSupport.framework */; };
+		9EA281901C1C4DDFBC30B2BE /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CB32B1BCD066406F9478A9B8 /* libPods.a */; };
+		D5999E8C67EB4C358F9EC84D /* libPods-sponsorpay-challengeTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 73B1C85403754AC09B31E041 /* libPods-sponsorpay-challengeTests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2024FEE517B1060500836CC4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2024FEB817B1060400836CC4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2024FEBF17B1060400836CC4;
+			remoteInfo = "sponsorpay-challenge";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		14D97DC0D1054E7B90ECFA14 /* Pods-sponsorpay-challengeTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sponsorpay-challengeTests.xcconfig"; path = "Pods/Pods-sponsorpay-challengeTests.xcconfig"; sourceTree = SOURCE_ROOT; };
+		2024FEC017B1060400836CC4 /* sponsorpay-challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "sponsorpay-challenge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2024FEC317B1060400836CC4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2024FEC517B1060400836CC4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2024FEC717B1060400836CC4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2024FECB17B1060400836CC4 /* sponsorpay-challenge-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "sponsorpay-challenge-Info.plist"; sourceTree = "<group>"; };
+		2024FECD17B1060400836CC4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2024FECF17B1060400836CC4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2024FED117B1060400836CC4 /* sponsorpay-challenge-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "sponsorpay-challenge-Prefix.pch"; sourceTree = "<group>"; };
+		2024FED217B1060400836CC4 /* SPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPAppDelegate.h; sourceTree = "<group>"; };
+		2024FED317B1060400836CC4 /* SPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPAppDelegate.m; sourceTree = "<group>"; };
+		2024FED517B1060400836CC4 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		2024FED717B1060400836CC4 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		2024FED917B1060400836CC4 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		2024FEE017B1060500836CC4 /* sponsorpay-challengeTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "sponsorpay-challengeTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2024FEE117B1060500836CC4 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		2024FEE917B1060500836CC4 /* sponsorpay-challengeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "sponsorpay-challengeTests-Info.plist"; sourceTree = "<group>"; };
+		2024FEEB17B1060500836CC4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2024FEF817B1074900836CC4 /* SPSponsorPayClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SPSponsorPayClient.h; path = classes/connection/SPSponsorPayClient.h; sourceTree = "<group>"; };
+		2024FEF917B1074900836CC4 /* SPSponsorPayClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SPSponsorPayClient.m; path = classes/connection/SPSponsorPayClient.m; sourceTree = "<group>"; };
+		2024FEFF17B107C500836CC4 /* SPEnvironment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SPEnvironment.h; path = classes/utils/SPEnvironment.h; sourceTree = "<group>"; };
+		2024FF0017B107C500836CC4 /* SPEnvironment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SPEnvironment.m; path = classes/utils/SPEnvironment.m; sourceTree = "<group>"; };
+		2024FF0317B1083E00836CC4 /* environment.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = environment.plist; sourceTree = "<group>"; };
+		2024FF0517B10D5200836CC4 /* SPOffersFormViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SPOffersFormViewController.h; path = classes/viewcontroller/SPOffersFormViewController.h; sourceTree = "<group>"; };
+		2024FF0617B10D5200836CC4 /* SPOffersFormViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SPOffersFormViewController.m; path = classes/viewcontroller/SPOffersFormViewController.m; sourceTree = "<group>"; };
+		2024FF0717B10D5200836CC4 /* SPOffersFormViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SPOffersFormViewController.xib; path = classes/viewcontroller/SPOffersFormViewController.xib; sourceTree = "<group>"; };
+		2024FF0D17B110C600836CC4 /* SPOffersController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SPOffersController.h; path = classes/connection/controllers/SPOffersController.h; sourceTree = "<group>"; };
+		2024FF0E17B110C600836CC4 /* SPOffersController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SPOffersController.m; path = classes/connection/controllers/SPOffersController.m; sourceTree = "<group>"; };
+		2024FF1117B1123C00836CC4 /* SPOffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SPOffer.h; path = classes/model/SPOffer.h; sourceTree = "<group>"; };
+		2024FF1217B1123C00836CC4 /* SPOffer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SPOffer.m; path = classes/model/SPOffer.m; sourceTree = "<group>"; };
+		2024FF1417B1128200836CC4 /* SPOfferType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SPOfferType.h; path = classes/model/SPOfferType.h; sourceTree = "<group>"; };
+		2024FF1517B1128200836CC4 /* SPOfferType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SPOfferType.m; path = classes/model/SPOfferType.m; sourceTree = "<group>"; };
+		2024FF1717B112B700836CC4 /* SPThumbnail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SPThumbnail.h; path = classes/model/SPThumbnail.h; sourceTree = "<group>"; };
+		2024FF1817B112B700836CC4 /* SPThumbnail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SPThumbnail.m; path = classes/model/SPThumbnail.m; sourceTree = "<group>"; };
+		2024FF1A17B1173900836CC4 /* SPOffersParserTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPOffersParserTest.h; sourceTree = "<group>"; };
+		2024FF1B17B1173900836CC4 /* SPOffersParserTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPOffersParserTest.m; sourceTree = "<group>"; };
+		2024FF1D17B1174E00836CC4 /* offers.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = offers.json; sourceTree = "<group>"; };
+		2024FF1F17B11BC300836CC4 /* SPOffersParams.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SPOffersParams.h; path = classes/model/SPOffersParams.h; sourceTree = "<group>"; };
+		2024FF2017B11BC300836CC4 /* SPOffersParams.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SPOffersParams.m; path = classes/model/SPOffersParams.m; sourceTree = "<group>"; };
+		2024FF2217B1231400836CC4 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		2024FF2717B1278C00836CC4 /* PortMapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PortMapper.h; path = classes/utils/PortMapper.h; sourceTree = "<group>"; };
+		2024FF2817B1278C00836CC4 /* PortMapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PortMapper.m; path = classes/utils/PortMapper.m; sourceTree = "<group>"; };
+		2024FF2B17B128C500836CC4 /* NSString+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+Additions.h"; path = "classes/categories/NSString+Additions.h"; sourceTree = "<group>"; };
+		2024FF2C17B128C500836CC4 /* NSString+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+Additions.m"; path = "classes/categories/NSString+Additions.m"; sourceTree = "<group>"; };
+		2024FF2E17B12B7D00836CC4 /* SPHashCalculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SPHashCalculator.h; path = classes/utils/SPHashCalculator.h; sourceTree = "<group>"; };
+		2024FF2F17B12B7D00836CC4 /* SPHashCalculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SPHashCalculator.m; path = classes/utils/SPHashCalculator.m; sourceTree = "<group>"; };
+		2024FF3117B12D5600836CC4 /* SPHashCalculatorTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPHashCalculatorTest.h; sourceTree = "<group>"; };
+		2024FF3217B12D5600836CC4 /* SPHashCalculatorTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPHashCalculatorTest.m; sourceTree = "<group>"; };
+		2024FF3717B1392B00836CC4 /* SPOffersListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SPOffersListViewController.h; path = classes/viewcontroller/SPOffersListViewController.h; sourceTree = "<group>"; };
+		2024FF3817B1392B00836CC4 /* SPOffersListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SPOffersListViewController.m; path = classes/viewcontroller/SPOffersListViewController.m; sourceTree = "<group>"; };
+		2024FF3B17B13AD500836CC4 /* SPOfferCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SPOfferCell.h; path = classes/cell/SPOfferCell.h; sourceTree = "<group>"; };
+		2024FF3C17B13AD600836CC4 /* SPOfferCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SPOfferCell.m; path = classes/cell/SPOfferCell.m; sourceTree = "<group>"; };
+		2024FF4817B13DAF00836CC4 /* SPOffersListViewControllerTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPOffersListViewControllerTest.h; sourceTree = "<group>"; };
+		2024FF4917B13DAF00836CC4 /* SPOffersListViewControllerTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPOffersListViewControllerTest.m; sourceTree = "<group>"; };
+		2024FF4B17B13FE600836CC4 /* SPError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SPError.h; path = classes/utils/SPError.h; sourceTree = "<group>"; };
+		2024FF4C17B13FE600836CC4 /* SPError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SPError.m; path = classes/utils/SPError.m; sourceTree = "<group>"; };
+		2024FF4E17B145B600836CC4 /* SPOffersControllerTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPOffersControllerTest.h; sourceTree = "<group>"; };
+		2024FF4F17B145B600836CC4 /* SPOffersControllerTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPOffersControllerTest.m; sourceTree = "<group>"; };
+		2024FF5117B14B6400836CC4 /* no_offers.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = no_offers.json; sourceTree = "<group>"; };
+		2024FF5317B1539A00836CC4 /* UITableViewCell+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UITableViewCell+Additions.h"; path = "classes/categories/UITableViewCell+Additions.h"; sourceTree = "<group>"; };
+		2024FF5417B1539A00836CC4 /* UITableViewCell+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UITableViewCell+Additions.m"; path = "classes/categories/UITableViewCell+Additions.m"; sourceTree = "<group>"; };
+		2024FF5617B172FD00836CC4 /* SPOffersParamsTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPOffersParamsTest.h; sourceTree = "<group>"; };
+		2024FF5717B172FE00836CC4 /* SPOffersParamsTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPOffersParamsTest.m; sourceTree = "<group>"; };
+		6DABC59F730B422285CE32F5 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
+		73B1C85403754AC09B31E041 /* libPods-sponsorpay-challengeTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-sponsorpay-challengeTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB32B1BCD066406F9478A9B8 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2024FEBD17B1060400836CC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2024FF2317B1231400836CC4 /* AdSupport.framework in Frameworks */,
+				2024FEC417B1060400836CC4 /* UIKit.framework in Frameworks */,
+				2024FEC617B1060400836CC4 /* Foundation.framework in Frameworks */,
+				2024FEC817B1060400836CC4 /* CoreGraphics.framework in Frameworks */,
+				9EA281901C1C4DDFBC30B2BE /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2024FEDC17B1060500836CC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2024FF5B17B17B5700836CC4 /* AdSupport.framework in Frameworks */,
+				2024FEE217B1060500836CC4 /* SenTestingKit.framework in Frameworks */,
+				2024FEE317B1060500836CC4 /* UIKit.framework in Frameworks */,
+				2024FEE417B1060500836CC4 /* Foundation.framework in Frameworks */,
+				D5999E8C67EB4C358F9EC84D /* libPods-sponsorpay-challengeTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2024FEB717B1060400836CC4 = {
+			isa = PBXGroup;
+			children = (
+				2024FEC917B1060400836CC4 /* sponsorpay-challenge */,
+				2024FEE717B1060500836CC4 /* sponsorpay-challengeTests */,
+				2024FEC217B1060400836CC4 /* Frameworks */,
+				2024FEC117B1060400836CC4 /* Products */,
+				6DABC59F730B422285CE32F5 /* Pods.xcconfig */,
+				14D97DC0D1054E7B90ECFA14 /* Pods-sponsorpay-challengeTests.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		2024FEC117B1060400836CC4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2024FEC017B1060400836CC4 /* sponsorpay-challenge.app */,
+				2024FEE017B1060500836CC4 /* sponsorpay-challengeTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2024FEC217B1060400836CC4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2024FF2217B1231400836CC4 /* AdSupport.framework */,
+				2024FEC317B1060400836CC4 /* UIKit.framework */,
+				2024FEC517B1060400836CC4 /* Foundation.framework */,
+				2024FEC717B1060400836CC4 /* CoreGraphics.framework */,
+				2024FEE117B1060500836CC4 /* SenTestingKit.framework */,
+				CB32B1BCD066406F9478A9B8 /* libPods.a */,
+				73B1C85403754AC09B31E041 /* libPods-sponsorpay-challengeTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2024FEC917B1060400836CC4 /* sponsorpay-challenge */ = {
+			isa = PBXGroup;
+			children = (
+				2024FED217B1060400836CC4 /* SPAppDelegate.h */,
+				2024FED317B1060400836CC4 /* SPAppDelegate.m */,
+				2024FF2A17B128AF00836CC4 /* categories */,
+				2024FF3E17B13ADF00836CC4 /* cell */,
+				2024FEFB17B1074D00836CC4 /* connection */,
+				2024FF1017B1121E00836CC4 /* model */,
+				2024FF0217B107C800836CC4 /* utils */,
+				2024FF0A17B10D6C00836CC4 /* viewcontroller */,
+				2024FECA17B1060400836CC4 /* Supporting Files */,
+			);
+			path = "sponsorpay-challenge";
+			sourceTree = "<group>";
+		};
+		2024FECA17B1060400836CC4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2024FF0317B1083E00836CC4 /* environment.plist */,
+				2024FECB17B1060400836CC4 /* sponsorpay-challenge-Info.plist */,
+				2024FECC17B1060400836CC4 /* InfoPlist.strings */,
+				2024FECF17B1060400836CC4 /* main.m */,
+				2024FED117B1060400836CC4 /* sponsorpay-challenge-Prefix.pch */,
+				2024FED517B1060400836CC4 /* Default.png */,
+				2024FED717B1060400836CC4 /* Default@2x.png */,
+				2024FED917B1060400836CC4 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2024FEE717B1060500836CC4 /* sponsorpay-challengeTests */ = {
+			isa = PBXGroup;
+			children = (
+				2024FF1A17B1173900836CC4 /* SPOffersParserTest.h */,
+				2024FF1B17B1173900836CC4 /* SPOffersParserTest.m */,
+				2024FF3117B12D5600836CC4 /* SPHashCalculatorTest.h */,
+				2024FF3217B12D5600836CC4 /* SPHashCalculatorTest.m */,
+				2024FF4817B13DAF00836CC4 /* SPOffersListViewControllerTest.h */,
+				2024FF4917B13DAF00836CC4 /* SPOffersListViewControllerTest.m */,
+				2024FF4E17B145B600836CC4 /* SPOffersControllerTest.h */,
+				2024FF4F17B145B600836CC4 /* SPOffersControllerTest.m */,
+				2024FF5617B172FD00836CC4 /* SPOffersParamsTest.h */,
+				2024FF5717B172FE00836CC4 /* SPOffersParamsTest.m */,
+				2024FEE817B1060500836CC4 /* Supporting Files */,
+			);
+			path = "sponsorpay-challengeTests";
+			sourceTree = "<group>";
+		};
+		2024FEE817B1060500836CC4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2024FEE917B1060500836CC4 /* sponsorpay-challengeTests-Info.plist */,
+				2024FEEA17B1060500836CC4 /* InfoPlist.strings */,
+				2024FF1D17B1174E00836CC4 /* offers.json */,
+				2024FF5117B14B6400836CC4 /* no_offers.json */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2024FEFB17B1074D00836CC4 /* connection */ = {
+			isa = PBXGroup;
+			children = (
+				2024FF0C17B110AC00836CC4 /* controllers */,
+				2024FEF817B1074900836CC4 /* SPSponsorPayClient.h */,
+				2024FEF917B1074900836CC4 /* SPSponsorPayClient.m */,
+			);
+			name = connection;
+			sourceTree = "<group>";
+		};
+		2024FF0217B107C800836CC4 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				2024FF2717B1278C00836CC4 /* PortMapper.h */,
+				2024FF2817B1278C00836CC4 /* PortMapper.m */,
+				2024FEFF17B107C500836CC4 /* SPEnvironment.h */,
+				2024FF0017B107C500836CC4 /* SPEnvironment.m */,
+				2024FF2E17B12B7D00836CC4 /* SPHashCalculator.h */,
+				2024FF2F17B12B7D00836CC4 /* SPHashCalculator.m */,
+				2024FF4B17B13FE600836CC4 /* SPError.h */,
+				2024FF4C17B13FE600836CC4 /* SPError.m */,
+			);
+			name = utils;
+			sourceTree = "<group>";
+		};
+		2024FF0A17B10D6C00836CC4 /* viewcontroller */ = {
+			isa = PBXGroup;
+			children = (
+				2024FF3617B138EB00836CC4 /* SPOffersFormViewController */,
+				2024FF3A17B13AB100836CC4 /* SPOffersListViewController */,
+			);
+			name = viewcontroller;
+			sourceTree = "<group>";
+		};
+		2024FF0C17B110AC00836CC4 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2024FF0D17B110C600836CC4 /* SPOffersController.h */,
+				2024FF0E17B110C600836CC4 /* SPOffersController.m */,
+			);
+			name = controllers;
+			sourceTree = "<group>";
+		};
+		2024FF1017B1121E00836CC4 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				2024FF1117B1123C00836CC4 /* SPOffer.h */,
+				2024FF1217B1123C00836CC4 /* SPOffer.m */,
+				2024FF1417B1128200836CC4 /* SPOfferType.h */,
+				2024FF1517B1128200836CC4 /* SPOfferType.m */,
+				2024FF1717B112B700836CC4 /* SPThumbnail.h */,
+				2024FF1817B112B700836CC4 /* SPThumbnail.m */,
+				2024FF1F17B11BC300836CC4 /* SPOffersParams.h */,
+				2024FF2017B11BC300836CC4 /* SPOffersParams.m */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		2024FF2A17B128AF00836CC4 /* categories */ = {
+			isa = PBXGroup;
+			children = (
+				2024FF2B17B128C500836CC4 /* NSString+Additions.h */,
+				2024FF2C17B128C500836CC4 /* NSString+Additions.m */,
+				2024FF5317B1539A00836CC4 /* UITableViewCell+Additions.h */,
+				2024FF5417B1539A00836CC4 /* UITableViewCell+Additions.m */,
+			);
+			name = categories;
+			sourceTree = "<group>";
+		};
+		2024FF3617B138EB00836CC4 /* SPOffersFormViewController */ = {
+			isa = PBXGroup;
+			children = (
+				2024FF0517B10D5200836CC4 /* SPOffersFormViewController.h */,
+				2024FF0617B10D5200836CC4 /* SPOffersFormViewController.m */,
+				2024FF0717B10D5200836CC4 /* SPOffersFormViewController.xib */,
+			);
+			name = SPOffersFormViewController;
+			sourceTree = "<group>";
+		};
+		2024FF3A17B13AB100836CC4 /* SPOffersListViewController */ = {
+			isa = PBXGroup;
+			children = (
+				2024FF3717B1392B00836CC4 /* SPOffersListViewController.h */,
+				2024FF3817B1392B00836CC4 /* SPOffersListViewController.m */,
+			);
+			name = SPOffersListViewController;
+			sourceTree = "<group>";
+		};
+		2024FF3E17B13ADF00836CC4 /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				2024FF3B17B13AD500836CC4 /* SPOfferCell.h */,
+				2024FF3C17B13AD600836CC4 /* SPOfferCell.m */,
+			);
+			name = cell;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2024FEBF17B1060400836CC4 /* sponsorpay-challenge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2024FEF217B1060500836CC4 /* Build configuration list for PBXNativeTarget "sponsorpay-challenge" */;
+			buildPhases = (
+				13D4624E99634B43BC2A6E81 /* Check Pods Manifest.lock */,
+				2024FEBC17B1060400836CC4 /* Sources */,
+				2024FEBD17B1060400836CC4 /* Frameworks */,
+				2024FEBE17B1060400836CC4 /* Resources */,
+				BC59A9787CF44CBBACC17ADB /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "sponsorpay-challenge";
+			productName = "sponsorpay-challenge";
+			productReference = 2024FEC017B1060400836CC4 /* sponsorpay-challenge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2024FEDF17B1060500836CC4 /* sponsorpay-challengeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2024FEF517B1060500836CC4 /* Build configuration list for PBXNativeTarget "sponsorpay-challengeTests" */;
+			buildPhases = (
+				C2D39E6444AF417A8DDDE045 /* Check Pods Manifest.lock */,
+				2024FEDB17B1060500836CC4 /* Sources */,
+				2024FEDC17B1060500836CC4 /* Frameworks */,
+				2024FEDD17B1060500836CC4 /* Resources */,
+				2024FEDE17B1060500836CC4 /* ShellScript */,
+				17EFCE0AD9924E81B15F8AA8 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2024FEE617B1060500836CC4 /* PBXTargetDependency */,
+			);
+			name = "sponsorpay-challengeTests";
+			productName = "sponsorpay-challengeTests";
+			productReference = 2024FEE017B1060500836CC4 /* sponsorpay-challengeTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2024FEB817B1060400836CC4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SP;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Diego Chohfi";
+			};
+			buildConfigurationList = 2024FEBB17B1060400836CC4 /* Build configuration list for PBXProject "sponsorpay-challenge" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2024FEB717B1060400836CC4;
+			productRefGroup = 2024FEC117B1060400836CC4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2024FEBF17B1060400836CC4 /* sponsorpay-challenge */,
+				2024FEDF17B1060500836CC4 /* sponsorpay-challengeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2024FEBE17B1060400836CC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2024FECE17B1060400836CC4 /* InfoPlist.strings in Resources */,
+				2024FED617B1060400836CC4 /* Default.png in Resources */,
+				2024FED817B1060400836CC4 /* Default@2x.png in Resources */,
+				2024FEDA17B1060400836CC4 /* Default-568h@2x.png in Resources */,
+				2024FF0417B1083E00836CC4 /* environment.plist in Resources */,
+				2024FF0917B10D5200836CC4 /* SPOffersFormViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2024FEDD17B1060500836CC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2024FEEC17B1060500836CC4 /* InfoPlist.strings in Resources */,
+				2024FF1E17B1174E00836CC4 /* offers.json in Resources */,
+				2024FF5217B14B6400836CC4 /* no_offers.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		13D4624E99634B43BC2A6E81 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+		};
+		17EFCE0AD9924E81B15F8AA8 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-sponsorpay-challengeTests-resources.sh\"\n";
+		};
+		2024FEDE17B1060500836CC4 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+		BC59A9787CF44CBBACC17ADB /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+		};
+		C2D39E6444AF417A8DDDE045 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2024FEBC17B1060400836CC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2024FED017B1060400836CC4 /* main.m in Sources */,
+				2024FED417B1060400836CC4 /* SPAppDelegate.m in Sources */,
+				2024FEFA17B1074900836CC4 /* SPSponsorPayClient.m in Sources */,
+				2024FF0117B107C500836CC4 /* SPEnvironment.m in Sources */,
+				2024FF0817B10D5200836CC4 /* SPOffersFormViewController.m in Sources */,
+				2024FF0F17B110C600836CC4 /* SPOffersController.m in Sources */,
+				2024FF1317B1123C00836CC4 /* SPOffer.m in Sources */,
+				2024FF1617B1128200836CC4 /* SPOfferType.m in Sources */,
+				2024FF1917B112B700836CC4 /* SPThumbnail.m in Sources */,
+				2024FF2117B11BC300836CC4 /* SPOffersParams.m in Sources */,
+				2024FF2917B1278C00836CC4 /* PortMapper.m in Sources */,
+				2024FF2D17B128C500836CC4 /* NSString+Additions.m in Sources */,
+				2024FF3017B12B7D00836CC4 /* SPHashCalculator.m in Sources */,
+				2024FF3917B1392B00836CC4 /* SPOffersListViewController.m in Sources */,
+				2024FF3D17B13AD600836CC4 /* SPOfferCell.m in Sources */,
+				2024FF4D17B13FE600836CC4 /* SPError.m in Sources */,
+				2024FF5517B1539A00836CC4 /* UITableViewCell+Additions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2024FEDB17B1060500836CC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2024FF1C17B1173900836CC4 /* SPOffersParserTest.m in Sources */,
+				2024FF3317B12D5600836CC4 /* SPHashCalculatorTest.m in Sources */,
+				2024FF4A17B13DAF00836CC4 /* SPOffersListViewControllerTest.m in Sources */,
+				2024FF5017B145B600836CC4 /* SPOffersControllerTest.m in Sources */,
+				2024FF5817B172FE00836CC4 /* SPOffersParamsTest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2024FEE617B1060500836CC4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2024FEBF17B1060400836CC4 /* sponsorpay-challenge */;
+			targetProxy = 2024FEE517B1060500836CC4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2024FECC17B1060400836CC4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2024FECD17B1060400836CC4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2024FEEA17B1060500836CC4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2024FEEB17B1060500836CC4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2024FEF017B1060500836CC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2024FEF117B1060500836CC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2024FEF317B1060500836CC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6DABC59F730B422285CE32F5 /* Pods.xcconfig */;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "sponsorpay-challenge/sponsorpay-challenge-Prefix.pch";
+				INFOPLIST_FILE = "sponsorpay-challenge/sponsorpay-challenge-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2024FEF417B1060500836CC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6DABC59F730B422285CE32F5 /* Pods.xcconfig */;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "sponsorpay-challenge/sponsorpay-challenge-Prefix.pch";
+				INFOPLIST_FILE = "sponsorpay-challenge/sponsorpay-challenge-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		2024FEF617B1060500836CC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14D97DC0D1054E7B90ECFA14 /* Pods-sponsorpay-challengeTests.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/sponsorpay-challenge.app/sponsorpay-challenge";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "sponsorpay-challenge/sponsorpay-challenge-Prefix.pch";
+				INFOPLIST_FILE = "sponsorpay-challengeTests/sponsorpay-challengeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		2024FEF717B1060500836CC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14D97DC0D1054E7B90ECFA14 /* Pods-sponsorpay-challengeTests.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/sponsorpay-challenge.app/sponsorpay-challenge";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "sponsorpay-challenge/sponsorpay-challenge-Prefix.pch";
+				INFOPLIST_FILE = "sponsorpay-challengeTests/sponsorpay-challengeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2024FEBB17B1060400836CC4 /* Build configuration list for PBXProject "sponsorpay-challenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2024FEF017B1060500836CC4 /* Debug */,
+				2024FEF117B1060500836CC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2024FEF217B1060500836CC4 /* Build configuration list for PBXNativeTarget "sponsorpay-challenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2024FEF317B1060500836CC4 /* Debug */,
+				2024FEF417B1060500836CC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2024FEF517B1060500836CC4 /* Build configuration list for PBXNativeTarget "sponsorpay-challengeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2024FEF617B1060500836CC4 /* Debug */,
+				2024FEF717B1060500836CC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2024FEB817B1060400836CC4 /* Project object */;
+}
